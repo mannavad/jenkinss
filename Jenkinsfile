@@ -5,17 +5,24 @@ pipeline{
     agent any
     //agent { label 'Demo' }
     stages{
-         
-         stage('Git Checkout')
-        {
-        steps{
-            gitCheckout()
-             }
-        }
-      
-         stage('MVNbuild')
-        {
-        steps{
-            mvnBuild()
-             }
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                stage('Git Checkout')
+            }
+
+                
+            }
+            stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                stage('MVNbuild')
+            }
+
+                
+            }
+    }
+
+                
+          
         } 
