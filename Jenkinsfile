@@ -8,15 +8,15 @@ pipeline{
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                stage('Git Checkout')
+                gitCheckout()
             }
 
                 
             }
-            stage('Build') {
+            stage('Buildmvn') {
             steps {
                 // Get some code from a GitHub repository
-                stage('MVNbuild')
+                mvnBuild()
             }
 
                 
