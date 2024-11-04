@@ -1,5 +1,5 @@
 def call (
-    serverId: 'jfrog,
+    serverId: 'jfrog',
     spec: '''{
           "files": [
             {
