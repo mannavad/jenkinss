@@ -21,6 +21,14 @@ pipeline{
 
                 
             }
+            stage('artifactoyr push') {
+            steps {
+                // Get some code from a GitHub repository
+                jfrog()
+            }
+
+                
+            }
             
           
          } 
