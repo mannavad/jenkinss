@@ -1,4 +1,4 @@
-def rtUpload (
+def call (
     serverId: 'jfrog,
     spec: '''{
           "files": [
