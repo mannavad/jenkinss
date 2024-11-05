@@ -1,10 +1,11 @@
 def call (){
-    serverId: 'jfrog',
+   rtUpload (
+    serverId: 'Artifactory-1',
     spec: '''{
           "files": [
             {
-              "pattern": "*.war",
-              "target": "libs-snapshot-local/"
+              "pattern": "bazinga/*froggy*.zip",
+              "target": "bazinga-repo/froggy-files/"
             }
          ]
     }''',
