@@ -4,8 +4,8 @@ def call (){
     spec: '''{
           "files": [
             {
-              "pattern": "*.war",
-              "target": "libs-snapshot-local/"
+              "pattern": "*.jar",
+              "target": "libs-snapshot-local"
             }
          ]
     }''',
