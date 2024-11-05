@@ -4,8 +4,8 @@ def call (){
     spec: '''{
           "files": [
             {
-              "pattern": "bazinga/*froggy*.zip",
-              "target": "bazinga-repo/froggy-files/"
+              "pattern": "*.war",
+              "target": "libs-snapshot-local/"
             }
          ]
     }''',
